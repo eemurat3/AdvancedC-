@@ -20,3 +20,6 @@ this repository is about of some c++ context
  * use virtual destructor in polymorphic base classes                                     
  * Note: All classes in STL have no virtual destructor, so be careful inheriting from them  
  * use shared_ptr for invoked derived class destructor
+
+4. Assignment to Self in Assignment Operator
+ * Assignment operator is frequently being overloaded. Self-assignment is one thing you need to be careful with when you overload an assignment operator.
