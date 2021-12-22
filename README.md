@@ -23,3 +23,6 @@ this repository is about of some c++ context
 
 4. Assignment to Self in Assignment Operator
  * Assignment operator is frequently being overloaded. Self-assignment is one thing you need to be careful with when you overload an assignment operator.
+
+
+* you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
