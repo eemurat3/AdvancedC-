@@ -24,5 +24,9 @@ this repository is about of some c++ context
 4. Assignment to Self in Assignment Operator
  * Assignment operator is frequently being overloaded. Self-assignment is one thing you need to be careful with when you overload an assignment operator.
 
+5. Resource Acquisition is Iniialization (RAII)
+ * the only code that can be quaranted to be executed after exception is thrown are the destructor of objects residing on the stack
+ * Resource management therefore needs to be tied to the lifespan of suitable objects in order to gain automatic deallocaton and reclamation
+
 
 * you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
