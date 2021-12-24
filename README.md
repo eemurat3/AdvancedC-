@@ -28,5 +28,7 @@ this repository is about of some c++ context
  * the only code that can be quaranted to be executed after exception is thrown are the destructor of objects residing on the stack
  * Resource management therefore needs to be tied to the lifespan of suitable objects in order to gain automatic deallocaton and reclamation
 
+6. Struct Vs. Class
+ * The most big different of class and struct, struct's default access specifier is public and class 's default access specifier is private 
 
 * you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
