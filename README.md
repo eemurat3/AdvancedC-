@@ -32,7 +32,7 @@ this repository is about of some c++ context
  * The most big different of class and struct, struct's default access specifier is public and class 's default access specifier is private 
 
 7. Resource Managing Class
- * anytime you have one object owning another object its pointer you have to do two things
+ * anytime you have one object owning another object  pointer you have to do two things
  * 1. Define copy constructor and and copy assigment operator for deep copying
  * 2. olution 2: Solution 1: Delete copy constructor and and copy assigment operator (we can copy constructor and copy assigmnet operator private), and define clone function
 
