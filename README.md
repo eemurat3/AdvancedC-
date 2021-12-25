@@ -34,7 +34,7 @@ this repository is about of some c++ context
 7. Resource Managing Class
  * anytime you have one object owning another object  pointer you have to do two things
  * 1. Define copy constructor and and copy assigment operator for deep copying
- * 2. olution 2: Delete copy constructor and and copy assigment operator (we can copy constructor and copy assigmnet operator private), and define clone function
+ * 2. Delete copy constructor and and copy assigment operator (we can copy constructor and copy assigmnet operator private), and define clone function
 
  *<strong> Note :</strong> if you are working with STL containers, STL containers requires there contain need to be copy constructable and copy assignable 
 
