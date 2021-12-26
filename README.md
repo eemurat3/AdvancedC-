@@ -40,5 +40,11 @@ this repository is about of some c++ context
 8. Virtual Constructor - Clone() Function
  * Sometimes you want a virtual constructor.This can be implemented with clone() function.
 
+9. Define Implicit Type Conversion
+ * Implicit Standard Type Conversion 
+ * Implicit User Defined Type Conversion
+ * Explicit Standard  Type Conversion
+ * Explicit User Defined Type Conversion
+
 
 * you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
