@@ -46,5 +46,11 @@ this repository is about of some c++ context
  * Explicit Standard  Type Conversion
  * Explicit User Defined Type Conversion
 
+10. Casting Operators
+ * 1. static_cast operator
+ * 2. dynamic_cast operator 
+ * 3. const_cast operator
+ * 4. reinterpret_cast operator
+ * 5. c style cast();
 
 * you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
