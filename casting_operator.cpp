@@ -9,12 +9,6 @@
 
 #include <iostream>
 #include <string>
-/********** 1. static_cast *******************/
-/*
- * Convert Objcect from one type another
- * Type conversion needs to be defined
- */
-
 
 using namespace std;
 class Dog {
@@ -32,6 +26,7 @@ class YellowDog : public Dog {
 		string get_color() const { return "yellow";}
 
 };
+
 /********** 1. static_cast *******************/
 /*
  * Convert Objcect from one type another
@@ -71,7 +66,6 @@ void const_cast_operator() {
 	char* modifiable = const_cast<char*>(str);
 	cout<<"const casting : modifiable :"<<modifiable<<endl;
 }
-
 
 /********** 1. reinterpet_cast *******************/
 /*
