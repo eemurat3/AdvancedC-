@@ -7,18 +7,7 @@ this repository is about of some c++ context
 
 2. Compiler Generated Function
  * ----C++ 03:
- * 1. * They specifies different acces control from the derived class to the base class
- *
- * Access Control:
- *  1. None of the derived classes can access anything that is private in B
- *  2. D_pub inherits public members of B as public and protected members of B as public
- *  3. D_priv inherit the public and protected members of B as private
- *  4. D_prot inherits the public and protected members of B as protected
- *
- * Casting
- *  1. Anyone ca cast a D_pub* to B*. D_pub is a special kinf of B.
- *  2. D_priv's members and friends can cast a D_priv* to B*.
- *  3. D_prot members,friends and children can cast a D_prot* to B*.Default Constructor( only if there is no constructor declared)
+ * 1. Default Constructor( only if there is no constructor declared)
  * 2. Copy Constructor(generated only if no 5,6 declared by user) + (c++11 3,4)
  * 3. Copy Assiment operator(generated only if 5,6 not declared by user) + (c++11 2,4)
  * 4. Destructor
