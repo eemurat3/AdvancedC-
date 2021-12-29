@@ -67,4 +67,8 @@ this repository is about of some c++ context
  *  2. D_priv's members and friends can cast a D_priv* to B*.
  *  3. D_prot members,friends and children can cast a D_prot* to B*.
 
+12. Maintain is-a Relation for Public Inheritance
+ * Public Inheritance indicates is-a relationship between base class and derived class. How to maintain this relationship in software development.
+
+
 * you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
