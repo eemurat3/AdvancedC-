@@ -70,5 +70,10 @@ this repository is about of some c++ context
 12. Maintain is-a Relation for Public Inheritance
  * Public Inheritance indicates is-a relationship between base class and derived class. How to maintain this relationship in software development.
 
+14. Understanding rvalue and lvalue
+ * Simplified Definition
+   * lvalue - An object that occupies some identifiable location in memory
+   * rvalue - any objcet that is not a lvalue
+
 
 * you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
