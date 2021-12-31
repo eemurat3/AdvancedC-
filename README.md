@@ -75,5 +75,8 @@ this repository is about of some c++ context
    * lvalue - An object that occupies some identifiable location in memory
    * rvalue - any objcet that is not a lvalue
 
+15. Static Polymorphism
+ * Polymorhism is not for free, it becomes with a small price to pay. the price is number one the memory cost of the virtual table and number two the runtime cost of the dynamic binding. basically the code that creates and uses the virtual table 
 
-* you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
+
+ you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
