@@ -78,5 +78,11 @@ this repository is about of some c++ context
 15. Static Polymorphism
  * Polymorhism is not for free, it becomes with a small price to pay. the price is number one the memory cost of the virtual table and number two the runtime cost of the dynamic binding. basically the code that creates and uses the virtual table 
 
+16. Multiple Inheritance
+ * if you have two same function in the different two class and u want to use two class together for multiple inheritance; when you instance from derived class and you call one of the same functions compiler  gives error "equest for member ‘function name’ is ambiguous". how can we solve this ambiguous?
+ * you can common base class, virtual inheritance or Pure Abstract Class
+
+<strong> Note : C++ standard says before compiler sees accessibility of a function it must decide which function is the best match for the function call </strong> 
+
 
  you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
