@@ -27,7 +27,7 @@ this repository is about of some c++ context
 5. Resource Acquisition is Iniialization (RAII)
  * the only code that can be quaranted to be executed after exception is thrown are the destructor of objects residing on the stack
  * Resource management therefore needs to be tied to the lifespan of suitable objects in order to gain automatic deallocaton and reclamation
-
+you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
 6. Struct Vs. Class
  * The most big different of class and struct, struct's default access specifier is public and class 's default access specifier is private 
 
@@ -57,15 +57,15 @@ this repository is about of some c++ context
  * They specifies different acces control from the derived class to the base class
 
  a. Access Control:
- *  1. None of the derived classes can access anything that is private in B
- *  2. D_pub inherits public members of B as public and protected members of B as public
- *  3. D_priv inherit the public and protected members of B as private
- *  4. D_prot inherits the public and protected members of B as protected
+  *  1. None of the derived classes can access anything that is private in B
+  *  2. D_pub inherits public members of B as public and protected members of B as public
+  *  3. D_priv inherit the public and protected members of B as private
+  *  4. D_prot inherits the public and protected members of B as protected
  
  b. Casting
- *  1. Anyone ca cast a D_pub* to B*. D_pub is a special kinf of B.
- *  2. D_priv's members and friends can cast a D_priv* to B*.
- *  3. D_prot members,friends and children can cast a D_prot* to B*.
+  *  1. Anyone ca cast a D_pub* to B*. D_pub is a special kinf of B.
+  *  2. D_priv's members and friends can cast a D_priv* to B*.
+  *  3. D_prot members,friends and children can cast a D_prot* to B*.
 
 12. Maintain is-a Relation for Public Inheritance
  * Public Inheritance indicates is-a relationship between base class and derived class. How to maintain this relationship in software development.
@@ -82,7 +82,19 @@ this repository is about of some c++ context
  * if you have two same function in the different two class and u want to use two class together for multiple inheritance; when you instance from derived class and you call one of the same functions compiler  gives error "equest for member ‘function name’ is ambiguous". how can we solve this ambiguous?
  * you can common base class, virtual inheritance or Pure Abstract Class
 
-<strong> Note : C++ standard says before compiler sees accessibility of a function it must decide which function is the best match for the function call </strong> 
+<strong> Note : C++ standard says before compiler sees accessibility of a function it must decide which function is the best match for the function call </strong>
+
+17. The Duality of Public Inheritance
+     - Inheritance of Interface
+     - Inheritance of Implementation
+ 
+   Types  of Inheritance in C++
+    1. Pure virtual public function - inherit interface only
+    2. Non-virtual public function - inherit both interface and implementation
+    3. Impure virtual public function - inherit interface and default implementation
+    4. protected function - inherit implementation only
+ 
+   *  as a software designer, it is very important to seperate the concepts of interface and implementation (codes will be added soon )
 
 
- you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
+you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
