@@ -96,5 +96,6 @@ this repository is about of some c++ context
  
    *  as a software designer, it is very important to seperate the concepts of interface and implementation (codes will be added soon )
 
+18. Code Reuse: Inheritance Vs. Composition
 
 you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
