@@ -98,4 +98,12 @@ this repository is about of some c++ context
 
 18. Code Reuse: Inheritance Vs. Composition
 
+19. Namespace and Keyword "using"
+ * C++ keyword using : using keyword can be used in two ways
+  - Using directive: to bring all namespace members into current scope 
+  - Using declaration
+     1. Bring one specific namespace member to current scope.
+     2. bring a member from base class to current class's scope 
+
+
 you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
