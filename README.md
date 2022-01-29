@@ -105,5 +105,17 @@ this repository is about of some c++ context
      1. Bring one specific namespace member to current scope.
      2. bring a member from base class to current class's scope 
 
+20. Demystifying Oerator new/delete
+ * Why do we wany to customize new/delete
+  1. Usage error detection:
+   - Memory leak detection/garbage collection
+   - array index overrun/underrun
+  2. Improve Efficiency
+   - clustering related objects to reduce page fault
+   - fixed size allocation(good for aplication with many small object)
+   - align similar size objects to same places to reduce fragmentation.
+  3. Perform additional tasks:
+   - fill the deallocated memorywith 0's - security
+   - Collect Usage statistics
 
 you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
