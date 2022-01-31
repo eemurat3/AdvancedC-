@@ -87,13 +87,13 @@ this repository is about of some c++ context
      - Inheritance of Interface
      - Inheritance of Implementation
  
-   Types  of Inheritance in C++
+   * Types  of Inheritance in C++
         1. Pure virtual public function - inherit interface only
         2. Non-virtual public function - inherit both interface and implementation
         3. Impure virtual public function - inherit interface and default implementation
         4. protected function - inherit implementation only
     
-    * as a software designer, it is very important to seperate the concepts of interface and implementation (codes will be added soon )
+        * as a software designer, it is very important to seperate the concepts of interface and implementation (codes will be added soon )
 
 18. Code Reuse: Inheritance Vs. Composition
 
