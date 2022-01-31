@@ -118,4 +118,13 @@ this repository is about of some c++ context
    - fill the deallocated memorywith 0's - security
    - Collect Usage statistics
 
+21. How to Define new Handler
+ * So the new handler must do one of following things                            
+     * 1. Make more mempry available                                 
+     * 2. Install a different new-handler                            
+     * 3. Uninstall the new-handler(passing a null pointer)          
+     * 4. Throw an exception bad_alloc or its descendent             
+     * 5. Terminate the program
+
+  
 you can find this codes and more at the youtube. youtube link https://www.youtube.com/playlist?list=PLE28375D4AC946CC3
